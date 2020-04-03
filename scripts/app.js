@@ -1,4 +1,4 @@
-//First Problem//
+/* //First Problem//
 let light = "Edis";
 if (light === "green"){
     console.log("Go");
@@ -30,14 +30,17 @@ if (temp < 68) {
     console.log("Perfect");
 } else if (temp > 72 && temp <= 76){
     console.log("Is Warm");
-}
+}  */
 
-const Riya = {
-    name: "Riya",
-    dob: 2003,
-    graduated: false,
-    age: function() {
-        console.log(this);
-        return 2020 - Riya.dob;
-    }
-}
+//1st Challenge// 
+/* const students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa","Richard"];
+const shortNames = students.filter(name => name.length < 5);  */
+
+//2nd Challenge//
+/* const students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa","Richard"];
+console.log(students.includes('Junshen')); 
+function checkAvailability(arr, val) {
+    return arr.some(arrVal => val === arrVal);
+  }
+console.log(checkAvailability(students, 'Alan')); 
+console.log(checkAvailability(students, 'Savva'));  */
